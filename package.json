@@ -2,12 +2,19 @@
   "name": "exp7-ci-cd-github-actions",
   "version": "1.0.0",
   "description": "DevOps Exp 7 - Automating CI/CD using GitHub Actions with Docker",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"No tests yet - CI pipeline success check\" && exit 0"
+    "start": "node server.js",
+    "test": "jest --runInBand"
   },
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
