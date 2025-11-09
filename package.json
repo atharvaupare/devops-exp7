@@ -1,0 +1,13 @@
+{
+  "name": "exp7-ci-cd-github-actions",
+  "version": "1.0.0",
+  "description": "DevOps Exp 7 - Automating CI/CD using GitHub Actions with Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests yet - CI pipeline success check\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
